@@ -6,6 +6,8 @@ C++ learning-course repository. Preserve instructor attribution, course links, e
 
 ## setup and validation
 
+Install: `bash .codex/setup.sh`. Validate: `bash .codex/validate.sh`. Read `.codex/README.md` for environment publication and startup instructions. These commands do not activate a cloud environment automatically.
+
 Inspect each exercise and any existing build configuration before choosing a compiler command. Use the C++ standard required by that exercise, not a guessed global standard. Compile only the changed exercise using its existing build target when available, and run a representative input/output check. Multiple exercises may each define main; do not compile the entire repository into one executable. Document missing compiler/build prerequisites and checks actually executed.
 
 ## privacy boundary
